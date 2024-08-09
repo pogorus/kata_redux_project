@@ -1,0 +1,12 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  .flights {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+.flight-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 10%);
+
+  .flight-card__header {
+    display: flex;
+    justify-content: space-between;
+    line-height: 36px;
+    padding: 20px;
+
+    .flight-card__price {
+      color: #2196f3;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .flight-card__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+
+    .flight-card__details {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      > div {
+        min-height: 35px;
+      }
+    }
+
+    .flight-card__dep-arr-airport,
+    .flight-card__dur-header,
+    .flight-card__transfer-number {
+      color: #a0b0b9;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .flight-card__dep-arr-time,
+    .flight-card__duration,
+    .flight-card__transfers {
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
